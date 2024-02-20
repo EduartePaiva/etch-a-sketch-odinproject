@@ -1,0 +1,22 @@
+.square {
+    background-color: rgb(168, 97, 235);
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 16px 0 0 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#container {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
