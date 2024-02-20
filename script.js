@@ -42,8 +42,7 @@ btnChange.addEventListener('click', () => {
     const userInput = prompt("Insert a new number of squares for the grid! It can't be greater than 100")
     if (userInput == null) return
     const numUserInput = parseInt(userInput)
-    if (isNaN(userInput) || userInput > 100 || userInput < 1) return
+    if (isNaN(numUserInput) || numUserInput > 100 || numUserInput < 1) return
     clearSquares()
     generateSquares(numUserInput)
-
 })
